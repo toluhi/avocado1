@@ -1,0 +1,26 @@
+/* Empty. Add your own CSS if you like */
+.green-bg{
+    background-color:#40c973;
+}
+
+.lightButton{
+    color : #40c973;
+    
+}
+
+.transparentButton{
+    color:white;
+    border-width:1px;
+    border-color: white;
+    background-color: transparent;
+}
+
+.bottom-div{
+    position: fixed;
+    bottom: 100px;
+    padding : 20px !important:
+}
+.home-content{
+    text-align: center;
+    padding-top: 150px;
+}
