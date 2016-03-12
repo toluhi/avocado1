@@ -14,6 +14,12 @@
     border-color: white;
     background-color: transparent;
 }
+.transparentLabel{
+    background-color: transparent;
+    border-top-width:0px;
+    border-bottom-width:1px;
+    color:white !important;
+}
 
 .bottom-div{
     position: fixed;

@@ -45,6 +45,16 @@ angular.module('starter', ['ionic'])
                          
                          
                          
-                         })
+                         }).state('login', {
+                                  url:'/signup',
+                                  views:{
+                                  app:{
+                                  templateUrl: 'template/signup.html'
+                                  }
+                                  }
+                                  
+                                  
+                                  
+                                  })
             //    $urlRouterProvider.otherwise("/app");
 });
