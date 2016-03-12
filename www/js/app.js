@@ -32,29 +32,27 @@ angular.module('starter', ['ionic'])
                templateUrl: 'template/home.html'
                 }
                }
-            
-               
-               
-               }) .state('signup', {
+                           }) .state('signup', {
                          url:'/signup',
                          views:{
                          app:{
                          templateUrl: 'template/signup.html'
                          }
                          }
-                         
-                         
-                         
-                         }).state('login', {
+                           }).state('login', {
                                   url:'/signup',
                                   views:{
                                   app:{
                                   templateUrl: 'template/signup.html'
                                   }
                                   }
-                                  
-                                  
-                                  
-                                  })
+                                    }).state('marketplace', {
+                                             url:'/marketplace',
+                                             views:{
+                                             app:{
+                                             templateUrl: 'template/marketplace.html'
+                                             }
+                                             }
+                                             })
             //    $urlRouterProvider.otherwise("/app");
 });
